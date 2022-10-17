@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\profi\\Documents\\Git Hub\\Sharp_14-10-2022_Class_student\\Sharp_14-10-2022_Class_student.csproj": {}
+    "C:\\Users\\Fishman_1\\Documents\\GitHub\\Sharp_14-10-2022_Class_student\\Sharp_14-10-2022_Class_student.csproj": {}
   },
   "projects": {
-    "C:\\Users\\profi\\Documents\\Git Hub\\Sharp_14-10-2022_Class_student\\Sharp_14-10-2022_Class_student.csproj": {
+    "C:\\Users\\Fishman_1\\Documents\\GitHub\\Sharp_14-10-2022_Class_student\\Sharp_14-10-2022_Class_student.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\profi\\Documents\\Git Hub\\Sharp_14-10-2022_Class_student\\Sharp_14-10-2022_Class_student.csproj",
+        "projectUniqueName": "C:\\Users\\Fishman_1\\Documents\\GitHub\\Sharp_14-10-2022_Class_student\\Sharp_14-10-2022_Class_student.csproj",
         "projectName": "Sharp_14-10-2022_Class_student",
-        "projectPath": "C:\\Users\\profi\\Documents\\Git Hub\\Sharp_14-10-2022_Class_student\\Sharp_14-10-2022_Class_student.csproj",
-        "packagesPath": "C:\\Users\\profi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\profi\\Documents\\Git Hub\\Sharp_14-10-2022_Class_student\\obj\\",
+        "projectPath": "C:\\Users\\Fishman_1\\Documents\\GitHub\\Sharp_14-10-2022_Class_student\\Sharp_14-10-2022_Class_student.csproj",
+        "packagesPath": "C:\\Users\\Fishman_1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fishman_1\\Documents\\GitHub\\Sharp_14-10-2022_Class_student\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\profi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fishman_1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
