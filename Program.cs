@@ -28,12 +28,13 @@ class Program
         Console.SetWindowSize(100, 30);//устанавливаем размер окна консоли
         Student st = new Student();
         st.Show();
-        Console.WriteLine("Вывод типа данных: " + st.GetType());
-        Console.WriteLine("Вывод случайной оценки: ");
+       // Console.WriteLine("Вывод типа данных: " + st.GetType());
+       // Console.WriteLine("Вывод случайной оценки: ");
         Student ula = new Student();
+        ula.SetMar();
         ula.Show();
         ula.GetMark();
-        ula.Show();
+        st.Show();
 
 
     }
@@ -68,7 +69,7 @@ class Student // создаем класс студент
         this._age = age;                // поле возраст
         Console.WriteLine("\nработает конструктор с параметрами\n");
     }
-    public void GetMark()// возможность получения оценок
+    public void SetMar ()//  возможность установки оценок
     {
         Console.WriteLine("Введите кол-во оценок\t");
         int mass1 = int.Parse(Console.ReadLine()); // преобразуем строку в число
@@ -88,10 +89,26 @@ class Student // создаем класс студент
             _estimation[2][i] = int.Parse(Console.ReadLine());
         }
     }
-    public static void SetMark(string setM)// возможность установки оценок
+    public  void GetMark()// возможность получения оценок и вывод на экран
     {
-        Console.WriteLine("Ввод оценки: ");
         Console.WriteLine("***********************************");
+        Console.WriteLine("Ввод оценки: ");
+
+        for (int i = 0; i < _estimation[0].Length; i++) 
+        {
+           Console.WriteLine("Оценки по программированию\t" + _estimation[0][i]) ; // вывод переменных из массива
+
+        }
+        
+        for (int i = 0; i < _estimation[1].Length; i++)
+        {
+            Console.WriteLine("Оценки по администрированию\t" + _estimation[1][i]); // вывод переменных из массива
+        }
+       
+        for (int i = 0; i < _estimation[2].Length; i++)
+        {
+            Console.WriteLine("Оценки по дизайну\t" + _estimation[2][i]); // вывод переменных из массива
+        }
         //setM = int.Parse(setM);
         //_estimation =  setM;
     }
@@ -100,6 +117,6 @@ class Student // создаем класс студент
         Console.WriteLine("ФИО : {0}", _surname + " " + _name + " " + _patronymic);
         Console.WriteLine("Группа: {0}", _group);
         Console.WriteLine("возраст :{0}", _age);
-        Console.WriteLine("оценка : {0}", _estimation);
+        Console.WriteLine("оценка : {0}", 7);
     }
 }
