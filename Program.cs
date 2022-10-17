@@ -26,10 +26,10 @@ class Program
         Console.BackgroundColor = ConsoleColor.Black; //изменяет цвет фона
         Console.ForegroundColor = ConsoleColor.DarkGreen;//изменяет цвет текста
         Console.SetWindowSize(100, 30);//устанавливаем размер окна консоли
-        Student st = new Student("Ula", "Lov", "Kat", "Student", 25, 1000000);
+        Student st = new Student();
         st.Show();
         Console.WriteLine("Вывод типа данных: " + st.GetType());
-        Console.WriteLine("Вывод случайной оценки: " + st.GetMark());
+        Console.WriteLine("Вывод случайной оценки: ");
         Student ula = new Student();
         ula.Show();
         ula.GetMark();
@@ -46,36 +46,49 @@ class Student // создаем класс студент
     private string _patronymic;//отчество
     private string _group;//группа
     private int _age;// возраст
-    private double _estimation;//оценка
+    private int [][] _estimation = new int [3][];//оценка
 
 
-    public Student() // конструктор без параметров/ по умолчанию
+    public Student() // конструктор по умолчанию заполнение обьекта
     {
         _surname = "Ulia";
         _name = "Loving";
         _patronymic = "tigress";
         _group = "Students";
         _age = 16;
-        _estimation = 999;
-        Console.WriteLine("\nработает конструктор без параметрами\n");
+        Console.WriteLine("\nработает конструктор по умолчанию заполнение обьекта\n");
     }
     public Student(string surname, string name, string patronymic,
-        string group, int age, double estimation)// конструктор с параметрами
+        string group, int age)// конструктор с параметрами
     {
         this._surname = surname;        //  поле фамилия
         this._name = name;              // поле имя
         this._patronymic = patronymic;  // поле отчество
         this._group = group;            // поле группа
         this._age = age;                // поле возраст
-        this._estimation = estimation;  // поле оценка
         Console.WriteLine("\nработает конструктор с параметрами\n");
-
     }
-    public int GetMark()// возможность установки\получения оценок
+    public void GetMark()// возможность получения оценок
     {
-        return new Random().Next(1, 1000);
+        Console.WriteLine("Введите кол-во оценок\t");
+        int mass1 = int.Parse(Console.ReadLine());
+        _estimation[0]=new int[mass1];
+        for (int i = 0; i < _estimation[0].Length; i++)
+        {
+            _estimation[0][i] = int.Parse(Console.ReadLine());
+        }
+        _estimation[1] = new int[mass1];
+        for (int i = 0; i < _estimation[1].Length; i++)
+        {
+            _estimation[1][i] = int.Parse(Console.ReadLine());
+        }
+        _estimation[2] = new int[mass1];
+        for (int i = 0; i < _estimation[2].Length; i++)
+        {
+            _estimation[2][i] = int.Parse(Console.ReadLine());
+        }
     }
-    public static void SetMark(string setM)// возможность установки\получения оценок
+    public static void SetMark(string setM)// возможность установки оценок
     {
         Console.WriteLine("Ввод оценки: ");
         Console.WriteLine("***********************************");

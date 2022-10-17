@@ -13,3 +13,18 @@ C:\Users\Fishman_1\Documents\GitHub\Sharp_14-10-2022_Class_student\obj\Debug\net
 C:\Users\Fishman_1\Documents\GitHub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\Sharp_14-10-2022_Class_student.pdb
 C:\Users\Fishman_1\Documents\GitHub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\Sharp_14-10-2022_Class_student.genruntimeconfig.cache
 C:\Users\Fishman_1\Documents\GitHub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\ref\Sharp_14-10-2022_Class_student.dll
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\bin\Debug\net6.0\Sharp_14-10-2022_Class_student.exe
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\bin\Debug\net6.0\Sharp_14-10-2022_Class_student.deps.json
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\bin\Debug\net6.0\Sharp_14-10-2022_Class_student.runtimeconfig.json
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\bin\Debug\net6.0\Sharp_14-10-2022_Class_student.dll
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\bin\Debug\net6.0\Sharp_14-10-2022_Class_student.pdb
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\Sharp_14-10-2022_Class_student.csproj.AssemblyReference.cache
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\Sharp_14-10-2022_Class_student.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\Sharp_14-10-2022_Class_student.AssemblyInfoInputs.cache
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\Sharp_14-10-2022_Class_student.AssemblyInfo.cs
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\Sharp_14-10-2022_Class_student.csproj.CoreCompileInputs.cache
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\Sharp_14-10-2022_Class_student.dll
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\refint\Sharp_14-10-2022_Class_student.dll
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\Sharp_14-10-2022_Class_student.pdb
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\Sharp_14-10-2022_Class_student.genruntimeconfig.cache
+C:\Users\profi\Documents\Git Hub\Sharp_14-10-2022_Class_student\obj\Debug\net6.0\ref\Sharp_14-10-2022_Class_student.dll
