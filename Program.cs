@@ -35,7 +35,7 @@ class Program
         ula.Show();
         ula.GetMark();
         st.Show();
-        ula.aver();
+        
 
     }
 }
@@ -131,6 +131,6 @@ class Student // создаем класс студент
         Console.WriteLine("ФИО : {0}", _surname + " " + _name + " " + _patronymic);
         Console.WriteLine("Группа: {0}", _group);
         Console.WriteLine("возраст :{0}", _age);
-        Console.WriteLine("оценка : {0}", 0);
+        Console.WriteLine("оценка : {0}", _average_end);
     }
 }
