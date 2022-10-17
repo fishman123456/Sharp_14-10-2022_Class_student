@@ -71,11 +71,11 @@ class Student // создаем класс студент
     public void GetMark()// возможность получения оценок
     {
         Console.WriteLine("Введите кол-во оценок\t");
-        int mass1 = int.Parse(Console.ReadLine());
-        _estimation[0]=new int[mass1];
-        for (int i = 0; i < _estimation[0].Length; i++)
+        int mass1 = int.Parse(Console.ReadLine()); // преобразуем строку в число
+        _estimation[0]=new int[mass1];              // выделяем память
+        for (int i = 0; i < _estimation[0].Length; i++) // заполняем массив нулевой
         {
-            _estimation[0][i] = int.Parse(Console.ReadLine());
+            _estimation[0][i] = int.Parse(Console.ReadLine()); // заносим переменные в массив
         }
         _estimation[1] = new int[mass1];
         for (int i = 0; i < _estimation[1].Length; i++)
